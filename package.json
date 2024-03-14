@@ -1,0 +1,42 @@
+{
+  "name": "lyc",
+  "version": "0.0.6",
+  "description": "Tells lyrics!",
+  "main": "bin/ly.js",
+  "scripts": {
+    "test": "npm run test",
+    "sing": "node ./bin/ly.js",
+    "build": "babel src -d lib"
+  },
+  "bin": {
+    "lyc": "bin/ly.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solodynamo/ly.git"
+  },
+  "keywords": [
+    "lyrics",
+    "ly",
+    "sing",
+    "song",
+    "blah"
+  ],
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "cheerio": "latest",
+    "request": "latest",
+    "underscore": "latest",
+    "update-notifier": "latest"
+  },
+  "author": "solodynamo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solodynamo/ly/issues"
+  },
+  "homepage": "https://github.com/solodynamo/ly#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
